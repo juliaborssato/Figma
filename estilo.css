@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+header{
+background-color: grey;
+display: flex;
+height: 5rem;
+}
+header img{
+    height: 100%;
+}
+footer{
+    background-color: grey;
+    height: 5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer img{
+    height: 100%;
+    padding: 0.3rem;
+
+}
+main{
+    background-color: white;
+    background-size: cover;
+}
+main{
+    height: 84vh;
+}
+main{
+    min-height: calc(100vh - 9rem);
+}
+main section{
+    display:flex;
+    max-width: 1090px;
+    margin: 0 auto;
+}
+main section.img img{
+    width: 50%;
+}
