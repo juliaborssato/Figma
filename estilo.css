@@ -8,22 +8,42 @@ header{
 background-color: grey;
 display: flex;
 height: 5rem;
+justify-content: space-between;
 }
 header img{
     height: 100%;
 }
+header nav ul{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    list-style: none;
+    padding-top: 30px;
+}
+header a {
+    color: black;
+}
 footer{
     background-color: grey;
     height: 5rem;
-    position: fixed;
-    bottom: 0;
     width: 100%;
+    align-items: center;
+    display: flex;
 }
-footer img{
-    height: 100%;
-    padding: 0.3rem;
+footer aside{
+    width: 50%;
+}
+footer aside.juju{
+    display: flex;
+    justify-content: flex-end;
+}
+footer aside img{
+    height: 95%;
+    padding: 1rem;
+    padding-left: 35px;
 
 }
+
 main{
     background-color: white;
     background-size: cover;
@@ -32,13 +52,18 @@ main{
     height: 84vh;
 }
 main{
-    min-height: calc(100vh - 9rem);
+    min-height: calc(100vh - 10rem);
 }
-main section{
-    display:flex;
-    max-width: 1090px;
-    margin: 0 auto;
+
+main section.img{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content:space-around;
 }
-main section.img img{
+main section.img picture{
     width: 50%;
+    padding: 2rem;
+    display:flex;
+    justify-content: center;
 }
