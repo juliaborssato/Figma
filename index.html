@@ -6,25 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Página Inicial</title>
-    <link rel="stylesheet" href="estilo.css" />
-    <link rel="stylesheet" href="responsivo.css">
+    <link rel="stylesheet" href="css/estilo.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+
 </head>
   
 <body>
     <header>
-      <picture>
+     <picture>
           <img src="./img/logo.png" alt="Logo" />
       </picture>
-      <nav>
+      <nav class="menu">
+        <input type="checkbox" class="menu-faketrigger" />
+        <div class="menuburguer">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <ul>
-          <li>
-            <a href="entrar.html">Entrar</a>
-          </li>
-          <li>
-            <a href="cadastrar.html">Cadastre-se</a>
-          </li>
+            <li><a href="#">Entrar</a></li>
+            <li><a href="#">Cadastre-se</a></li>
         </ul>
-      </nav>
+    </nav>
     </header>
     <main class="main">
       <img src="./img/taylor1.png" alt="Taylor na esquerda"/>
@@ -39,6 +43,7 @@
       <aside class="juju">
         <a href="pages/page1.html"><img src="./img/seta.png" alt="Próxima Página"/></a>
       </aside>
+
       
 
     </footer>

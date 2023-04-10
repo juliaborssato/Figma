@@ -32,21 +32,17 @@ header a {
 footer{
     background-color: grey;
     height: 6rem;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    position: absolute;
-    bottom: 0;
 }
 
 
 footer aside img{
     height: 90%;
-    padding-left: 35px;
-    padding-right: 35px;
-
+    padding: 10px;
 }
 
 .main{
@@ -73,6 +69,10 @@ footer aside img{
     justify-content: flex-start;
     position: absolute;
     bottom: 0;
-    gap: 40px;
-    padding-left: 3rem;
+    gap: 30px;
+    
+}
+
+.juju2 a{
+    margin: 40px;
 }
