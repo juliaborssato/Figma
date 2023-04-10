@@ -33,58 +33,46 @@ footer{
     background-color: grey;
     height: 6rem;
     width: 100vw;
-    align-items: center;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
     position: absolute;
     bottom: 0;
-    padding: 10px;
 }
 
-footer aside{
-    width: 50%;
-}
-footer aside.juju{
-    display: flex;
-    justify-content: flex-end;
-}
 
 footer aside img{
     height: 90%;
     padding-left: 35px;
+    padding-right: 35px;
 
 }
 
-main{
+.main{
     background-color: white;
     background-size: cover;
+    min-height: calc(100vh - 12rem);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    padding: 15px;
+    height: 1fr;
 }
 
-main{
-    min-height: calc(100vh - 12rem);
-}
-main.juju2{
-    display: grid;
-    grid-template-columns: auto auto auto;
+.juju2{
+    display: flex;
+    flex-wrap: wrap;
     align-items:center;
     justify-content: space-between;
-}
-main.juju2 picture{
-    padding-left: 5rem;
-}
-main.juju2 figure{
-    padding-right: 5rem;
+    height: 1fr;
 }
 
-
-main section.img{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content:space-around;
-}
-main section.img picture{
-    width: 50%;
-    padding: 2rem;
-    display:flex;
-    justify-content: center;
+.juju2footer {
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 0;
+    gap: 40px;
+    padding-left: 3rem;
 }
